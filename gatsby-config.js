@@ -3,6 +3,7 @@ module.exports = {
     title: 'Teamathon',
   },
   plugins: [
+    'gatsby-plugin-netlify-identity-widget',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
