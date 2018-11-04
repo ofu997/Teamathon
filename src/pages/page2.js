@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 // new import
-import {Button, Container, Row, Col, } from
+import {Button, Container, Row, Col, } from 'reactstrap';
 const UserPage = () => (
   <Layout>
     <h1>Hi from user profile page</h1>
