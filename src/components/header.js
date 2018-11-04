@@ -26,7 +26,6 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <div data-netlify-identity-menu></div>
     </div>
   </div>
 )
