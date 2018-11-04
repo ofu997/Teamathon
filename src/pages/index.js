@@ -11,6 +11,7 @@ const IndexPage = () => (
     </div>
     <h1>Build your team with us</h1>
     <p>Welcome to your Teamathon site.</p>
+    <div data-netlify-identity-menu></div>
     <p>Now go build some awesome teams.</p>
     <Link to="/page2/">Go to user page</Link>
   </Layout>
