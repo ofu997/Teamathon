@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import './layout.css'
+import LOGO from '../../images/LOGO.png'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -22,8 +23,11 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Team builder for hackathons' },
+            { name: 'keywords', content: 'Team, hackathons' },
+          ]}
+          link={[
+            { rel: 'shortcut icon', type: 'image/png', href: `${LOGO}` }
           ]}
         >
           <html lang="en" />
