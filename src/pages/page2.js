@@ -7,7 +7,7 @@ const UserPage = () => (
   <Layout>
     <h1>Hi from user profile page</h1>
     <p>here should be a form!</p>
-    <Link to="/teamPage/">Show me the teams</Link><br/>
+    <Link to="/page3/">Show me the teams</Link><br/>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
