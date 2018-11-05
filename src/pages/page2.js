@@ -51,7 +51,7 @@ const UserPage = () => (
         </Col>
       </Row>
     </Container>
-
+  
     <Link to="/page3/">Show me the teams</Link><br/>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
